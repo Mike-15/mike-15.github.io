@@ -1,0 +1,236 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: verdana;
+	background-color: #dde4e7;
+}
+
+/* ------ HEADER ------ */
+
+header {
+	background-color: #3c7089;
+}
+
+header h1 {
+	text-align: center;
+	padding: 10px;
+	font-size: 3em;
+	color: lightgray;
+	text-shadow: 2px 2px 2px black;
+}
+
+/* ------ NAVBAR ------ */
+
+nav ul {
+	background-color: #4b6b7a;
+}
+
+nav ul li,
+nav ul li a {
+	display: inline-block;
+	color: lightgray;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+	color: #D4E6F1;
+	text-decoration: underline;
+}
+
+/* ------ SECTION 1 ------ */
+
+.head {
+	background-color: #efefef;
+	margin: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.top h2 {
+	background-color: #afafaf;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.top h5 {
+	background-color: #afafaf;
+}
+
+.top .img1 {
+	width: 40px;
+	height: 40px;
+	margin: 2px;
+	float: left;
+	border-radius: 100px;
+}
+
+/* ------ SECTION 2 LEFT ------ */
+
+.bodyleft {
+	width: 49%;
+	margin: 11px;
+	margin-right: 0px;
+	outline: 1px solid grey;
+	float: left
+}
+
+.bottomleft {
+	height: 200px;
+	background-color: #dfdfdf;
+}
+
+.bottomleft h3 {
+	background-color: #cacaca;
+	color: #003366;
+	text-align: center;
+}
+
+.bottomleft h6 {
+	background-color: #cacaca;
+	color: #003366;
+	text-align: center;
+}
+
+.bottomleft p {
+	color: #0f80b6;
+	text-align: center;
+	text-align: left;
+	padding-left: 7px;
+	color: black; 
+}
+
+/* ------ SECTION 2 RIGHT ------ */
+
+.bodyright {
+	width: 49%;
+	margin: 11px;
+	margin-left: 0px;
+	outline: 1px solid grey;
+	float: right
+}
+
+.bottomright {
+	height: 200px;
+	background-color: #dfdfdf;
+}
+
+.bottomright h3 {
+	background-color: #cacaca;
+	color: #003366;
+	text-align: center;
+}
+
+.bottomright h6 {
+	background-color: #cacaca;
+	color: #003366;
+	text-align: center;
+}
+
+.bottomright p {
+	color: #0f80b6;
+	text-align: center;
+	text-align: left;
+	padding-left: 7px;
+	color: black; 
+}
+
+/* ------ FOOTER DIV ------ */
+
+.footer {
+	position: static;
+	height: 40px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+	background-color: #3c7089;
+	color: lightgrey;
+	clear: both;
+}
+
+.m1 {
+	padding-top: 10px;
+}
+
+/* ------ BODY IMAGES ------ */
+
+.bayonet {
+	height: 160px;
+	width: 100px;
+	float: right;
+}
+
+.gas {
+	height: 100px;
+	width: 100px;
+	float: right;
+}
+
+.helmet {
+	height: 100px;
+	width: 100px;
+	float: right;
+}
+
+.pouches {
+	height: 100px;
+	width: 100px;
+	float: right;
+}
+
+.tool {
+	height: 100px;
+	width: 200px;
+	float: right;
+}
+
+.water {
+	height: 100px;
+	width: 100px;
+	float: right;
+}
+
+.wood {
+	height: 100px;
+	width: 200px;
+	float: right;
+}
+
+.rifle {
+	height: 100px;
+	width: 200px;
+	float: right;
+}
+
+.housewife {
+	height: 100px;
+	width: 100px;
+	float: right;
+}
+
+.trenchcoat {
+	height: 160px;
+	width: 100px;
+	float: right;
+}
+
+.paybook {
+	height: 100px;
+	width: 200px;
+	float: right;
+}
+
+.messkit {
+	height: 100px;
+	width: 200px;
+	float: right;
+}
